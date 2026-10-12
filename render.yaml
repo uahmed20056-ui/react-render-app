@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: react-render-app
+    runtime: node
+    plan: free
+    buildCommand: npm run build
+    startCommand: npm start
